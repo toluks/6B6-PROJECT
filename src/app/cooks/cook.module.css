@@ -1,0 +1,28 @@
+.header{
+    background-image: url(/images/istockphoto-jpeg.jpg);
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 7px solid white;
+}
+
+.header h1{
+    font-size: 3rem;
+    color: white;
+}
+
+.header p{
+    text-align: center;
+    color: white;
+    width: 60%;
+    font-size: 1rem;
+}

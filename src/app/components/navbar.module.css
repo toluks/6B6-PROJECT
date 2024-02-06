@@ -1,0 +1,36 @@
+
+.nav{
+    background-color: rgb(61, 122, 105);
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+.nav li{
+    padding: 20px;
+}
+
+.nav ul:last-of-type li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    line-height: 30px;
+}
+
+.nav span:hover{
+    border-bottom: 4px solid rgb(121, 170, 222);
+    opacity: 20;
+    background-color: rgba(37, 33, 33, 0.264);
+}
+

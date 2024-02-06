@@ -1,0 +1,60 @@
+.header{
+    height: 60vh;
+    background-image: radial-gradient(rgba(90, 37, 50, 0.624), rgba(123, 58, 17, 0.504)), url(/Creamy\ Mushroom\ &\ Spinach\ Soup.jpg) ;
+    background-size: cover;
+    border-radius: 150px 150px;
+    border-left: 1px solid gold;
+    border-right: 1px solid gold;
+    border-bottom: 1px solid gold;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    box-sizing: border-box;
+    gap: 80px;
+    line-height: 30px;
+
+}
+
+.box h2{
+    color: gold;
+    font-weight: 500;
+}
+
+.topbtn{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: antiquewhite;
+    width: 100px;
+    height: 37px;
+    right: 900px;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    margin-left: 1027px;
+    place-content: center;
+}
+
+.back{
+    background-image: url(/images/istockphoto-1jpeg.jpg);
+    background-size: cover;
+    height: 70vh;
+}
+
+.front{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(1, 71, 1);
+    padding: 10px ;
+    border-radius: 8px 8px 0 0;
+    color: whitesmoke;
+    margin-bottom: 0px;
+}
+

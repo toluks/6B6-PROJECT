@@ -1,0 +1,44 @@
+.about img{
+    border-radius: 50%;
+    height: 100px;
+    margin: auto;
+    margin-top: -30px;
+    box-shadow: 0 0 20px gray;
+    border: 8px solid whitesmoke;
+}
+
+.about  div{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.about h2{
+    font-weight: bolder;
+}
+
+.about p{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(1, 71, 1);
+    padding: 10px ;
+    border-radius: 8px 8px 0 0;
+    color: whitesmoke;
+    margin-bottom: -40px;
+}
+
+.aboutTop{
+    height: 70vh;
+    background-image: url('/images/istockphoto-1jpeg.jpg');
+    background-size: cover;
+}

@@ -1,0 +1,43 @@
+.main{
+    height: 100vh;
+    background-image: url('/food-unsplash.jpg');
+    background-size: cover;
+}
+
+.category{
+    width: 85%;
+    margin: 2em auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 250px);
+    gap: 20px;
+}
+
+.category > :nth-child(1){
+    background-image: url(/Efo-riro1.jpg);
+    background-size: cover;
+
+
+}
+
+.category > :nth-child(2){
+    background-image: url(/Okra-Soup.jpg);
+    background-size: cover;
+    
+}
+.category > :nth-child(3){
+    background-image: url(/Groundnut-soup.jpg);
+    background-size: cover;
+}
+
+
+.category> div{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.category h2{
+    text-transform: uppercase;
+    background-color: gold;
+}

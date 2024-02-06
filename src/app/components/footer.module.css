@@ -1,0 +1,26 @@
+.footer h2{
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 20px;
+
+}
+
+.footer section{
+    color: rgb(74, 54, 54);
+    background-color: rgb(61, 122, 105);
+    height: 60vh;
+    font-weight: 500;
+    font-size: 15px;
+    min-height: 60vh;
+    line-height: 25px;
+
+}
+
+.footer ul{
+    line-height: 2em;
+
+}
+
+.mod{
+    display: flex;
+}
