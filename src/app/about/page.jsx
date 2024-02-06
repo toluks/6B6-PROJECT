@@ -21,7 +21,7 @@ export default function page() {
       <div className='grid grid-cols-2 gap-8 py-10 w-4/5 m-auto'>
       <p className='font-semibold' style={{lineHeight: 2}}>Toluks Soup Recipe Blog is an African Food Culinary Network, popularly known as Toluks Afican Recipes is a website dedicated to African food and lifestyle.   </p>
 
-      <p>Toluks commitment is simplicity at its peak. It was created to help redefine the world's view of African cuisines, chefs, and traditional cooks. Africa is blessed with a lot of food bloggers and they are changing the perception of the western world towards the African continent, its food, recipes, cooks, and chefs.</p>
+      <p>Toluks commitment is simplicity at its peak. It was created to help redefine the world&apos;s view of African cuisines, chefs, and traditional cooks. Africa is blessed with a lot of food bloggers and they are changing the perception of the western world towards the African continent, its food, recipes, cooks, and chefs.</p>
 
      </div>
     </section>
