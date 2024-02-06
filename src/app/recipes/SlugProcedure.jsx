@@ -7,8 +7,8 @@ export default function SlugProcedure({process}) {
     <div className="py-8">
     <h2 className="text-green-700 text-2xl py-4">Procedure</h2>
     <ul>
-        {procedure.map(cook => (
-            <li className="flex gap-y-4">
+        {procedure.map((cook,index) => (
+            <li className="flex gap-y-4" key={index}>
                 <GiCampCookingPot />
                 <span>{cook}</span>
             </li>
